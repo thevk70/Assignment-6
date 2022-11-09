@@ -144,7 +144,22 @@
 // }
 
 // 9. Write a program to calculate LCM of two numbers
-
+// #include <stdio.h>
+// int main()
+// {
+//     int num1,num2;
+//     printf("Enter two numbers:: ");
+//     scanf("%d%d",&num1,&num2);
+//     for (int i = 1; i <= num1*num2; i++)
+//     {
+//         if ((i%num1==0) && (i%num2==0))
+//         {
+//             printf("LCM od (%d,%d) is %d.",num1,num2,i);
+//             break;
+//         }
+//     }
+//     return 0;
+// }
 
 // 10. Write a program to reverse a given number
 // #include <stdio.h>
